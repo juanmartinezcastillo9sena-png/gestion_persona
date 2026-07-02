@@ -2,6 +2,7 @@
 
 require_once "../clases/persona.php";
 require_once "../clases/carro.php";
+require_once "../clases/estudiante.php";
 
     $persona1=new persona("Juan", "28", "juanmartinez@gmail.com", "Martinez");
     $persona2=new persona("Pino", "20", "pino@gmail.com", "Parra");
@@ -11,7 +12,6 @@ require_once "../clases/carro.php";
 
     $persona2->saludar();
 
-    
 
     $carro1=new carro("Mercedez", "negro", "2025");
     $carro2=new carro("BMW", "azul", "2016");
@@ -20,4 +20,8 @@ require_once "../clases/carro.php";
 
     $carro2->informacion();
 
+    
+    $estudiante1=new estudiante("Andres", "21", "andreslopes@gmail.com", "Lopez");
+
+    $estudiante1->saludar()
 ?>
