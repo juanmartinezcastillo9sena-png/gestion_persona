@@ -1,5 +1,5 @@
 <?php
-    require_once "../clases/persona";
+    require_once " ../clases/persona";
 
     $juan=new persona();
 
