@@ -20,4 +20,6 @@ class persona
         echo "Hola, mi nombre es:  ".$this->nombre." ".$this->apellido." tengo ".$this->edad." y mi correo es ".$this->correo."<br>";
         }
 }
+
+
 ?>
